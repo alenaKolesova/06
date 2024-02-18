@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIMYM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="header">
+            <div id="logo" class="logo"><img src="logo.png" alt=""></div>    
+            <div id="header-menu" class="header-menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-menu">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </div>
+        </div>
+
+        <div class="spacer"></div>
+
+        <button id="loadButton">Зарузить информацию о сериале</button>
+
+        <div id="description" class="description">
+            <img id="poster" class="poster" src="" alt="" srcset="">
+            
+            <div class="information">
+                <div id="name" class="name"></div> 
+                <div class="spacer"></div>
+                <div id="about" class="about display-none">О сериале</div> 
+                <div id="country" class="large-font"></div>
+                <div id="year" class="large-font"></div>
+                <div id="slogan" class="large-font"></div>
+                <div id="finished" class="large-font"></div>
+            </div>
+        </div>
+
+        <div class="spacer"></div> 
+
+        <div id="starring" class="starring">
+            <div id="starringText" class="about display-none">В главных ролях</div>
+            <div id="actors" class="actors"></div> 
+        </div> 
+
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
